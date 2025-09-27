@@ -1,0 +1,12 @@
+.LandingPage {
+    .banner{
+        /* background-image: url('./banner.jpg');
+        background-size: cover; 
+        background-position: center;  */
+        background-color: beige;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

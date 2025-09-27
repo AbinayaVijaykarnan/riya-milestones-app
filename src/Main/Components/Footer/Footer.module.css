@@ -1,0 +1,16 @@
+.navbarFooter {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: grey;
+    font-size: 0.8rem;
+    padding: 1rem;
+    text-align: center;
+
+    .version {
+        font-size: 0.6rem;
+        position: absolute;
+        right: 4rem;
+        bottom: 1rem;
+    }
+}
