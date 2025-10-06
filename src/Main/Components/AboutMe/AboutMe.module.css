@@ -1,0 +1,49 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.aboutMeCover {
+    background-image: url('../../images/redBabyDress.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+    width: 95%;
+    height: 90%;
+    margin: 1rem auto;
+    color: white;
+    position: relative;
+}
+
+.aboutMeContent {
+    /* font-family: "Macondo Swash Caps", cursive; */
+    font-family: "Tinos", serif;
+    width: 35%;
+    height: 80%;
+    overflow: auto;
+    position: absolute;
+    top: 2rem;
+    right: 8rem;
+    color: black;
+    background: #ffffff;
+    padding: 1rem;
+    text-align: justify;
+    border-radius: 0.2rem;
+    border-top: 5px solid #e48c8c;
+
+    .title {
+        font-size: 2rem;
+        font-family: cursive;
+        color: #a12626;
+    }
+
+    .quote {
+        color: #8b8181;
+        padding: 1rem;
+        border-left: 4px solid #b7b7b7;
+    }
+
+    .footer {
+        font-family: cursive;
+        display: flex;
+        flex-direction: column;
+    }
+}
